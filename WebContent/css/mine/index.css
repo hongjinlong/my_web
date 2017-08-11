@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+}
+
+#top{
+	height:50px;
+}
+
+#center{
+	height:660px;
+}
+
+#bottom{
+	height:40px;
+}
+
+#left{
+	float:left;
+	width:20%;
+	height:100%;
+}
+
+#right{
+	float:left;
+	width:calc(80%-4px);
+	height:100%;
+}
+
+#clear{
+	clear:both;
+}
+
+.border{
+	border:1px solid green;
+}
