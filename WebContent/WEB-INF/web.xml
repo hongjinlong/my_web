@@ -4,4 +4,36 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>musicTree</servlet-name>
+  	<servlet-class>com.my_web.servlet.MusicTreeServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>musicTree</servlet-name>
+  	<url-pattern>/musicTree</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+  	<servlet-name>videoTree</servlet-name>
+  	<servlet-class>com.my_web.servlet.VideoTreeServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>videoTree</servlet-name>
+  	<url-pattern>/videoTree</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+  	<servlet-name>photoTree</servlet-name>
+  	<servlet-class>com.my_web.servlet.PhotoTreeServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>photoTree</servlet-name>
+  	<url-pattern>/photoTree</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
